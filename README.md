@@ -53,7 +53,7 @@ Modify the package.json file for publishing:
  - Update the bin field to specify the command users will use to run your app. Example:
  ```bash
  "bin": {
- "your-command": "./bin/gui.js"
+    "your-command": "./bin/gui.js"
  }
  ```
  Ensure that gui.js initializes the Pear framework and loads index.html as the GUI.
