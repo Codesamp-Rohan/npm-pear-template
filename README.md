@@ -94,6 +94,17 @@ npm-pear-template/
 └── node_modules/  # Dependencies
 ```
 ---
+## FOR EXAMPLE
+Run:
+```bash
+npm i npm-pear-template -g
+```
+then run
+```bash
+npm-pear-template
+```
+
+---
 
 ### Contributions
 Contributions are welcome! Fork this repository, make changes, and submit a pull request. Let's build amazing GUI applications together! 😊

@@ -1,6 +1,6 @@
 {
   "name": "npm-pear-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "imagine publishing your app on npm, and running it globally anywhere just by installing in the system.",
   "main": "./src/index.html",
   "pear": {
@@ -13,7 +13,7 @@
     }
   },
   "bin": {
-  "npm-cmd-name": "./bin/gui.js"
+  "npm-pear-template": "./bin/gui.js"
 },
   "type": "module",
   "license": "Apache-2.0",
