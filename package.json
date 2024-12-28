@@ -1,0 +1,28 @@
+{
+  "name": "npm-pear-template",
+  "version": "1.0.0",
+  "description": "imagine publishing your app on npm, and running it globally anywhere just by installing in the system.",
+  "main": "./src/index.html",
+  "pear": {
+    "name": "npm-pear-template",
+    "type": "desktop",
+    "gui": {
+      "backgroundColor": "#1F2430",
+      "height": "540",
+      "width": "720"
+    }
+  },
+  "bin": {
+  "npm-cmd-name": "./bin/gui.js"
+},
+  "type": "module",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "pear run -d .",
+    "test": "brittle test/*.test.js"
+  },
+  "devDependencies": {
+    "brittle": "^3.0.0",
+    "pear-interface": "^1.0.0"
+  }
+}
