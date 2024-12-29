@@ -14,7 +14,7 @@
   },
   "bin": {
   "you-app-name": "./app.js",
-  "pearkey": "pear://wrr3br3ib1bzdmfpyihdzqfdmyxyfy46o4metcr7yths9hwawywy"
+  "pearkey": "your-pear-key-here"
 },
   "type": "module",
   "license": "Apache-2.0",
