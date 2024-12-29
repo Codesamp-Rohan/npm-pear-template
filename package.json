@@ -1,10 +1,10 @@
 {
-  "name": "npm-pear-template",
+  "name": "your-app-name",
   "version": "1.0.1",
   "description": "imagine publishing your app on npm, and running it globally anywhere just by installing in the system.",
   "main": "./src/index.html",
   "pear": {
-    "name": "npm-pear-template",
+    "name": "your-app-name",
     "type": "desktop",
     "gui": {
       "backgroundColor": "#1F2430",
@@ -13,7 +13,8 @@
     }
   },
   "bin": {
-  "npm-pear-template": "./bin/gui.js"
+  "you-app-name": "./app.js",
+  "pearkey": "pear://wrr3br3ib1bzdmfpyihdzqfdmyxyfy46o4metcr7yths9hwawywy"
 },
   "type": "module",
   "license": "Apache-2.0",
