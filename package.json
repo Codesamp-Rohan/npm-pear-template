@@ -1,6 +1,6 @@
 {
   "name": "your-app-name",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "imagine publishing your app on npm, and running it globally anywhere just by installing in the system.",
   "main": "./index.html",
   "pear": {
