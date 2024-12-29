@@ -2,7 +2,7 @@
   "name": "your-app-name",
   "version": "1.0.1",
   "description": "imagine publishing your app on npm, and running it globally anywhere just by installing in the system.",
-  "main": "./src/index.html",
+  "main": "./index.html",
   "pear": {
     "name": "your-app-name",
     "type": "desktop",
@@ -14,7 +14,7 @@
   },
   "bin": {
   "you-app-name": "./app.js",
-  "pearkey": "your-pear-key-here"
+  "pearkey": "pear://wrr3br3ib1bzdmfpyihdzqfdmyxyfy46o4metcr7yths9hwawywy"
 },
   "type": "module",
   "license": "Apache-2.0",

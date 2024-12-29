@@ -41,8 +41,10 @@ Start editing the files to make the application your own:
 
 ### 4. Test Locally
 Run your app locally during development:
+ - stage the app
+ - edit the peer key
 ```bash
-pear run -d .
+node app.js
 ```
 ---
 
@@ -53,7 +55,8 @@ Modify the package.json file for publishing:
  - Update the bin field to specify the command users will use to run your app. Example:
  ```bash
  "bin": {
-    "your-command": "./bin/gui.js"
+    "your-command": "./app.js",
+    "pearkey": "your-seed-key-here"
  }
  ```
  Ensure that gui.js initializes the Pear framework and loads index.html as the GUI.
